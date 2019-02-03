@@ -30,6 +30,7 @@ import           Control.Concurrent.STM.TVar as S
 import           Control.Monad
 import           Data.Maybe
 import           Data.Monoid                 (Sum (..))
+import           Data.Semigroup
 import qualified Data.Vector.Unboxed         as U
 import           Language.Haskell.TH
 import qualified ListT                       as L

@@ -29,12 +29,12 @@ library
     Haskell2010
   build-depends:
     base >= 4.7 && < 5,
-    containers >= 0.5.11,
+    containers,
     stm,
     list-t,
     vector,
     template-haskell,
-    stm-containers >= 1.1,
+    stm-containers,
     apecs >= 0.7
   ghc-options:
     -Wall
